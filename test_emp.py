@@ -1,4 +1,4 @@
-from emp import emp_details
+from emp import employee_details
 
 def test_emp_details():
     expected_output=(
@@ -7,4 +7,4 @@ def test_emp_details():
         "Department:IT\n" 
         "Salary:55000"
     )
-    assert emp_details("alice","E1001","IT",55000)==expected_output
+    assert employee_details("alice","E1001","IT",55000)==expected_output
